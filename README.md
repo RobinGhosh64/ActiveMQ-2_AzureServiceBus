@@ -13,6 +13,7 @@ Migrating JMS code from Active Apache MQ to Azure Service Bus.
 spring.jms.servicebus.connection-string=<Connection String>
 spring.jms.servicebus.pricing-tier=Premium
 
-3) Use spring.jms.servicebus.enabled=[true/false] f you decide the switch the use of Service Bus or Active Apache MQ product at runtime
+3) Use spring.jms.servicebus.enabled=[true/false] 
+if you decide to switch at runtime between Service Bus or Active Apache MQ product usage.
 	
 robin.ghosh@microsoft.com 	
