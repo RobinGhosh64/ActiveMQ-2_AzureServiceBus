@@ -11,7 +11,7 @@ Migrating JMS code from Active Apache MQ to Azure Service Bus.
     
 2) Add 2 new parameters in your application.properties file
 
-	spring.jms.servicebus.connection-string=<Connection String>
+	spring.jms.servicebus.connection-string={Default=....connection string settings}
 
 	spring.jms.servicebus.pricing-tier=Premium
 
