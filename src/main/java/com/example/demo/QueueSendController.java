@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class SendController {
+public class QueueSendController {
 
     private static final String DESTINATION_NAME = "niel";
 
-    private static final Logger logger = LoggerFactory.getLogger(SendController.class);
+    private static final Logger logger = LoggerFactory.getLogger(QueueSendController.class);
 
     @Autowired
     private JmsTemplate jmsTemplate;
