@@ -1,19 +1,18 @@
-Migrate from Active Apache MQ to Azure Service Bus.
+Migrating JMS code from Active Apache MQ to Azure Service Bus.
 
-1) Add the spring jms service bus module into your projec2
+1) Add the spring jms service bus module into your project po..xml
 
     <!-- Azure Service Bus -->
-		<dependency>
-    		<groupId>com.azure.spring</groupId>
-    		<artifactId>azure-spring-boot-starter-servicebus-jms</artifactId>
-    		<version>3.14.0</version>
-		</dependency> 
+	<dependency>
+    	<groupId>com.azure.spring</groupId>
+    	<artifactId>azure-spring-boot-starter-servicebus-jms</artifactId>
+    	<version>3.14.0</version>
+	</dependency> 
     
-2) Add 2 parameters in application.properties
+2) Add 2 new parameters in your application.properties file
 spring.jms.servicebus.connection-string=<Connection String>
 spring.jms.servicebus.pricing-tier=Premium
 
-  3)
-Switch from Active MQ to Azure Service Bus using another  runtime attribute with spring.jms.servicebus.enabled=true
-
-Switch from Azure Service Bus to Apache Active MQ with spring.jms.servicebus.enabled=false
+3) Use spring.jms.servicebus.enabled=[true/false] f you decide the switch the use of Service Bus or Active Apache MQ product at runtime
+	
+robin.ghosh@microsoft.com 	
