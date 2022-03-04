@@ -25,7 +25,7 @@ if you plan to switch between Service Bus or Active Apache MQ at runtime.
 ## spring.jms.servicebus.enabled=true should switch to Azure Service Bus
 
 
-<img src="images/Our queue in Service Bus.png">
+<img src="images/Code-Connects-To-Service-Bus.png">
 
 
 
