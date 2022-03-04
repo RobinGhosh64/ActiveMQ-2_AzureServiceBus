@@ -22,12 +22,19 @@ if you plan to switch between Service Bus or Active Apache MQ at runtime.
 	
 	
 
-Select your newly created resource group. Then click **Create** Or **Create resources** if this is the first resource your are creating
-a Cosmos DB may be accomplished via the [Azure Portal](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal), or via the [Azure CLI]
+## spring.jms.servicebus.enabled=true should switch to Azure Service Bus
+
+
+<img src="images/Our queue in Service Bus.png">
+
+
+
+## spring.jms.servicebus.enabled=false should switch to Apache Active MQ
 
 
 <img src="images/Code-Connects-To-Active-MQ.png">
 
-Then select on **Create** Azure Cosmos DB. Cosmos provides different flaovors. Please choose the one with SQL
 
-Fill all the parameters as shown
+
+
+
