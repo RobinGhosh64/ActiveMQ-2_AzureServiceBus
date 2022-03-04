@@ -1,4 +1,4 @@
-Migrating JMS code from Active Apache MQ to Azure Service Bus.
+## Migrating JMS code from Active Apache MQ to Azure Service Bus.
 
 1) Add the spring jms service bus module into your project pom.xml
 
@@ -21,4 +21,13 @@ if you plan to switch between Service Bus or Active Apache MQ at runtime.
 	Customers requiring phased approach from On-Prem to Azure Cloud should use this technique.
 	
 	
-robin.ghosh@microsoft.com 	
+
+Select your newly created resource group. Then click **Create** Or **Create resources** if this is the first resource your are creating
+a Cosmos DB may be accomplished via the [Azure Portal](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal), or via the [Azure CLI]
+
+
+<img src="images/Code-Connects-To-Active-MQ.png">
+
+Then select on **Create** Azure Cosmos DB. Cosmos provides different flaovors. Please choose the one with SQL
+
+Fill all the parameters as shown
